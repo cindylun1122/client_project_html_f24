@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(180, 180, 180);
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font: rgb(49, 49, 49);
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(78, 78, 211);
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(49, 49, 49);
+    line-height: 1.5;
+}
+
+img {
+    border: 5px solid rgb(49, 49, 49);
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    border-top-right-radius: 20px;
+}
+
+ul {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav li {
+    padding-right: 20px;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #ddd;
+    padding: 25px 0;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.welcome,
+.tutoring,
+.information {
+    grid-column: 1 / span 4;
+}
+
+.welcome {
+    grid-row: 3;
+}
+
+.tutoring {
+    grid-row: 4;
+}
+
+.information {
+    grid-row: 5;
+}

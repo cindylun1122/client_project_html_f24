@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Success Portal</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <a href="#main">Skip to Main Content</a>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" style="width: 100px;">
         <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
@@ -22,34 +24,34 @@
         <h1>UMSI Tutoring & Academic Support</h1>
 
     </header>
-    <main id="main">
-        <section>
+    <main class="container" id="main">
+        <div class="welcome" id="welcome">
             <h2>Welcome!</h2>
             <img src="images/ccsiresumeworkshop.jpg" alt="UMSI Tutoring & Academic Support">
             <p> The Academic Success Team at UMSI is dedicated to supporting students inside and outside of the classroom. This site is dedicated to connecting students to tutoring and academic support resources. Resources covered on this site include:</p>
-            <ol>
+            <ul>
                 <li>UMSI Peer Tutoring</li>
                 <li>Programming Peer Tutoring</li>
                 <li>Math Peer Tutoring</li>
                 <li>Additional Academic Support Resources</li>
                 <li>Link to the Peer-to-Peer Tutor Directory</li>
-            </ol>
-        </section>
-        <section>
+            </ul>
+        </div>
+        <div class="tutoring" id="tutoring">
             <h2>UMSI Peer Tutoring Program</h2>
             <p>In partnership with our UMSI faculty, the UMSI Peer Tutoring program is an opportunity for UMSI students and students taking UMSI courses to engage with peer tutors and receive assistance and support in UMSI courses. </p>
             <p>For more information regarding student support and tutoring, please email umsi.academicsuccess@umich.edu. </p>
             <article>
                 <h3>Find the Location</h3>
                 <figure>
-                    <img src="images/location.png" alt="location">
+                    <img src="images/location.png" alt="location" width=>
                     <figcaption>Location of Academic Success</figcaption>
                 </figure>
             </article>
-        </section>
+        </div>
 
 
-        <section id="More information">
+        <div class="information" id="information">
             <h2>More Information</h2>
             <p>Check more resources offered by Academic Advising</p>
             <ul>
@@ -59,7 +61,7 @@
                 <li><strong>Community Engagement:</strong> Get involved with local volunteering opportunities and community service projects to make a positive impact.</li>
                 <li><strong>Housing and Dining:</strong> Find information on on-campus housing options and dining services to ensure a comfortable living experience.</li>
             </ul>
-        </section>
+        </div>
     </main>
     <footer>
         <p>UMSI Academic Success | <a href="https://www.si.umich.edu/student-experience/academic-success"> umsi.academicsuccess@umich.edu </a></p>
