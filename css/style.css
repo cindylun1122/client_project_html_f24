@@ -26,7 +26,8 @@ h2 {
 h3 {
     font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(78, 78, 211);
+    font-weight: bold;
+    color: rgb(49, 49, 49);
 }
 
 li,
@@ -121,8 +122,8 @@ nav li .active {
 }
 
 .container p a {
-    color: rgb(255, 255, 255);
-    background-color: rgb(78, 78, 211);
+    text-decoration: underline;
+    color: #1c66a6;
 }
 
 .container {
