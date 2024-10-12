@@ -6,26 +6,26 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 20px;
     padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'monserrat', sans-serif;
     font: rgb(49, 49, 49);
 }
 
 h1 {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'monserrat', sans-serif;
     text-align: center;
 }
 
 h2 {
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    color: darkblue;
+    font-family: 'monserrat', sans-serif;
+    color: #00274C;
     text-align: center;
 }
 
 h3 {
     font-size: 12px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'monserrat', sans-serif;
     font-weight: bold;
     color: rgb(49, 49, 49);
 }
@@ -33,7 +33,7 @@ h3 {
 li,
 p {
     font-size: 12px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'monserrat', sans-serif;
     color: rgb(49, 49, 49);
     line-height: 1.5;
 }
@@ -64,7 +64,7 @@ nav li {
     display: inline-block;
     line-height: 25px;
     text-align: center;
-    background-color: #00284C;
+    background-color: #00274C;
     color: white;
     border-radius: 5px;
 }
@@ -82,8 +82,8 @@ nav {
 }
 
 footer {
-    background-color: #ddd;
-    color: rgb(255, 255, 255);
+    background-color: #FFCB05;
+    color: #00274C;
     /*padding-top: 30px;*/
     text-align: center;
 }
