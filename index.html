@@ -12,28 +12,26 @@
 <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" style="width: 25px;" id="logo">
         <nav>
             <ul>
-                <li><img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" style="width: 25px;"></li>
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="UMSI Programming Tutoring.html">Courses</a></li>
-                <li><a href="Meet the UMSI Peer Tutoring Team.html">Tutors</a></li>
-                <li><a href="Additional Academic Support.html">Others</a></li>
+                <li><a href="UMSI Programming Tutoring.html">Tutors</a></li>
+                <li><a href="Meet the UMSI Peer Tutoring Team.html">Courses</a></li>
+                <li><a href="Additional Academic Support.html">Career</a></li>
             </ul>
         </nav>
-        <h1>UMSI Tutoring & Academic Support</h1>
     </header>
     <main class="container" id="main">
+        <h1>UMSI Tutoring & Academic Support</h1>
         <div class="welcome" id="welcome">
             <h2>Welcome!</h2>
             <img src="images/ccsiresumeworkshop.jpg" alt="UMSI Tutoring & Academic Support">
             <p> The Academic Success Team at UMSI is dedicated to supporting students inside and outside of the classroom. This site is dedicated to connecting students to tutoring and academic support resources. Resources covered on this site include:</p>
-            <ul class="list1">
+            <ul>
                 <li>UMSI Peer Tutoring</li>
                 <li>Programming Peer Tutoring</li>
                 <li>Math Peer Tutoring</li>
-            </ul>
-            <ul class="list2">
                 <li>Additional Academic Support Resources</li>
                 <li>Link to the Peer-to-Peer Tutor Directory</li>
             </ul>
@@ -43,7 +41,11 @@
             <p>In partnership with our UMSI faculty, the UMSI Peer Tutoring program is an opportunity for UMSI students and students taking UMSI courses to engage with peer tutors and receive assistance and support in UMSI courses. </p>
             <p>For more information regarding student support and tutoring, please email umsi.academicsuccess@umich.edu. </p>
             <h3>Find the Location</h3>
-            <img src="images/location.png" alt="location" width=>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5903.809699472435!2d-83.7428011241722!3d42.28055444012131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae40746ad639%3A0x9777deab36d450cd!2sSchool%20of%20Information%20at%20the%20University%20of%20Michigan!5e0!3m2!1sen!2sus!4v1731133326489!5m2!1sen!2sus"
+                    width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Google map showing location on Information School"></iframe>></iframe>
+            </div>
+
         </div>
 
 
@@ -51,17 +53,22 @@
             <h2>More Information</h2>
             <p>Check more resources offered by Academic Advising</p>
             <ul>
-                <li><strong>Student Organizations:</strong> Join one of the many student organizations to connect with peers who share your interests and passions.</li>
-                <li><strong>Arts and Culture:</strong> Explore UM's vibrant arts scene with events, exhibitions, and performances happening year-round.</li>
-                <li><strong>Career Services:</strong> Utilize career counseling, job search resources, and networking opportunities to prepare for your professional future.</li>
-                <li><strong>Community Engagement:</strong> Get involved with local volunteering opportunities and community service projects to make a positive impact.</li>
-                <li><strong>Housing and Dining:</strong> Find information on on-campus housing options and dining services to ensure a comfortable living experience.</li>
+                <li>Student Organizations</li>
+                <li>Arts and Culture</li>
+                <li>Career Services</li>
+                <li>Community Engagement</li>
+                <li>Housing and Dining</li>
             </ul>
         </div>
     </main>
     <footer>
         <p>UMSI Academic Success | <a href="https://www.si.umich.edu/student-experience/academic-success"> umsi.academicsuccess@umich.edu </a></p>
+        <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 
 </html>

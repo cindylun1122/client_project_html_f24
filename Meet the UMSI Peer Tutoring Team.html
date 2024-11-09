@@ -12,19 +12,19 @@
 <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" style="width: 25px;" id="logo">
         <nav>
             <ul>
-                <li><img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" style="width: 25px;"></li>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="UMSI Programming Tutoring.html">Courses</a></li>
-                <li><a href="Meet the UMSI Peer Tutoring Team.html" class="active">Tutors</a></li>
-                <li><a href="Additional Academic Support.html">Others</a></li>
+                <li><a href="UMSI Programming Tutoring.html">Tutors</a></li>
+                <li><a href="Meet the UMSI Peer Tutoring Team.html" class="active">Courses</a></li>
+                <li><a href="Additional Academic Support.html">Careers</a></li>
             </ul>
         </nav>
-        <h1>UMSI Peer-to-Peer Student Tutor Directory</h1>
 
     </header>
     <main class="container" id="main">
+        <h1>UMSI Peer-to-Peer Student Tutor Directory</h1>
         <div class="tutors">
             <h2>Peer-to-Peer Student Tutor Directory </h2>
             <img src="images/Peertopeer.jpg" alt="Peertopeer">
@@ -44,7 +44,12 @@
     </main>
     <footer>
         <p>UMSI Academic Success | <a href="https://www.si.umich.edu/student-experience/academic-success"> umsi.academicsuccess@umich.edu </a></p>
+        <p>© Copyrights <span id="year"></span> by CodexWorld. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
 </body>
 
